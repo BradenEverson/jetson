@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <unistd.h>
 
 #include <jetgpio.h>
 
@@ -19,5 +20,5 @@ int main() {
         exit(status);
     }
 
-    gpioWrite(8, 1);
+    gpioWrite(8, 0);
 }
