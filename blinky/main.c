@@ -21,4 +21,7 @@ int main() {
     }
 
     gpioWrite(8, 0);
+
+    gpioTerminate();
+    exit(0);
 }
